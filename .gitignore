@@ -1,0 +1,61 @@
+### Build output ###
+target/
+out/
+bin/
+build/
+dist/
+*.class
+
+### Python ###
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+htmlcov/
+.python-version
+
+### Maven ###
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Node, for whenever a JS folder appears ###
+node_modules/
+npm-debug.log*
+
+### IntelliJ IDEA / PyCharm / WebStorm ###
+.idea/
+*.iml
+*.iws
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Misc ###
+*.log

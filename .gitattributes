@@ -1,0 +1,12 @@
+# LF in the repository, native in the working tree. Without this, committing from
+# Windows makes every file look rewritten from top to bottom in the diff.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.jar binary
+*.png binary
+*.jpg binary
+*.pdf binary
